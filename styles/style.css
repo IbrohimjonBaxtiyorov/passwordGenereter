@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #18171F;
+}
+
+.container {
+    max-width: 540px;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 130px;
+}
+
+.main-main {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.header>h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #817D92;
+}
+
+.password-area {
+    background-color: #24232C;
+    padding: 19px 32px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    margin-top: 31px;
+    color: #E6E5EA;
+}
+
+.password-area>img {
+    cursor: pointer;
+}
+
+#form {
+    padding: 24px 32px;
+    background-color: #24232C;
+}
+
+.checkbox-area {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+.checkbox-area>label {
+    color: #E6E5EA;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.main-header>p {
+    color: #E6E5EA;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+
+#range-length {
+    color: #A4FFAF;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+
+}
+
+.main-bottom {
+    max-width: 476px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #18171F;
+    padding: 22px 32px;
+
+}
+
+.main-bottom>p {
+    color: #817D92;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+
+
+
+#button {
+    background-color: #A4FFAF;
+    padding: 21px 177px;
+    border: none;
+    margin-top: 32px;
+    max-width: 476px;
+    width: 100%;
+    display: flex;
+    gap: 24px;
+}
+
+#range {
+    max-width: 476px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.strValue {
+    display: flex;
+    align-items: center;
+    gap: 15.5px;
+}
+
+.strValue>h3 {
+    color: #E6E5EA;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: right;
+
+}

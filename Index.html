@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Password Genereter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>Password Generator</h3>
+        <div class="password-area">
+          <div id="passwordOut">****</div>
+
+          <img id="copy" src="./images//copy.svg" width="21px" height="24px" alt="" />
+        </div>
+      </div>
+      <form id="form">
+        <div class="main-header">
+          <p>Character Length</p>
+          <span id="range-length">0</span>
+        </div>
+        <div>
+          <span
+            ><input type="range" id="range" min="6" max="20" value="1"
+          /></span>
+        </div>
+        <div class="main-main">
+          <div class="checkbox-area">
+            <input type="checkbox" name="UpperCase" id="" />
+            <label for="UpperCase">Include Uppercase Letters</label>
+          </div>
+          <div class="checkbox-area">
+            <input type="checkbox" name="Lowercase" id="" />
+            <label for="Lowercase">Include Lowercase Letters</label>
+          </div>
+          <div class="checkbox-area">
+            <input type="checkbox" name="Numbers" id="" />
+            <label for="Numbers">Include Numbers</label>
+          </div>
+          <div class="checkbox-area">
+            <input type="checkbox" name="Symbols" id="" />
+            <label for="Symbols">Include Symbols</label>
+          </div>
+        </div>
+
+        <div class="main-bottom">
+          <p>STRENGTH</p>
+          <div class="strValue">
+            <h3 id="strText"></h3>
+            <img id="strImg" src="" alt="" />
+          </div>
+        </div>
+        <button type="submit" id="button">
+          GENERATE
+          <img
+            src="./images//arrowr.svg"
+            alt=""
+            width="11.11px"
+            height="12px"
+          />
+        </button>
+      </form>
+    </div>
+    <script src="JS/app.js" type="module"></script>
+  </body>
+</html>
